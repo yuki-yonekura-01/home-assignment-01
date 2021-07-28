@@ -8,7 +8,7 @@
 <thead>
 <tr>
 <th>種類</th>
-<th style="text-align:center">公認</th>
+<th style="text-align:center">CircleCI公認</th>
 <th>プロバイダ</th>
 <th>公開場所</th>
 <th>利用目的</th>
@@ -20,7 +20,7 @@
 <td style="text-align:center">✅</td>
 <td>CircleCI<br>パートナー</td>
 <td><a href="https://circleci.com/developer/ja/orbs" target="_blank" rel="noopener noreferrer">Orb レジストリ<OutboundLink/></a></td>
-<td>CircleCIが公認した Orb を利用したい場合</td>
+<td>CircleCI公認の Orb を利用したい場合</td>
 </tr>
 <tr>
 <td>パブリック Orb</td>
@@ -43,24 +43,20 @@
 <h3 id="迅速な環境セットアップ" tabindex="-1"><a class="header-anchor" href="#迅速な環境セットアップ" aria-hidden="true">#</a> 迅速な環境セットアップ</h3>
 <p>Orbs を使えば、Node.js の環境設定もわずか数行で行うことができます。</p>
 <ul>
-<li>
-<p><strong>Orbを利用しない場合：</strong></p>
-<div class="language-yaml ext-yml line-numbers-mode"><pre v-pre class="language-yaml"><code><span class="token key atrule">docker</span><span class="token punctuation">:</span>
+<li><strong>Orbを利用しない場合：</strong><div class="language-yaml ext-yml line-numbers-mode"><pre v-pre class="language-yaml"><code><span class="token key atrule">docker</span><span class="token punctuation">:</span>
   <span class="token punctuation">-</span> <span class="token key atrule">image</span><span class="token punctuation">:</span> cimg/node<span class="token punctuation">:</span>&lt;node<span class="token punctuation">-</span>version<span class="token punctuation">></span>
     <span class="token key atrule">auth</span><span class="token punctuation">:</span>
       <span class="token key atrule">username</span><span class="token punctuation">:</span> mydockerhub<span class="token punctuation">-</span>user
       <span class="token key atrule">password</span><span class="token punctuation">:</span> $DOCKERHUB_PASSWORD
 </code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br></div></div></li>
-<li>
-<p><strong>Orbを利用した場合：</strong></p>
-<div class="language-yaml ext-yml line-numbers-mode"><pre v-pre class="language-yaml"><code><span class="token key atrule">orbs</span><span class="token punctuation">:</span>
+<li><strong>Orbを利用した場合：</strong><div class="language-yaml ext-yml line-numbers-mode"><pre v-pre class="language-yaml"><code><span class="token key atrule">orbs</span><span class="token punctuation">:</span>
   <span class="token key atrule">node</span><span class="token punctuation">:</span> circleci/node@x.y
 </code></pre><div class="line-numbers"><span class="line-number">1</span><br><span class="line-number">2</span><br></div></div></li>
 </ul>
 <h3 id="属人化の解消" tabindex="-1"><a class="header-anchor" href="#属人化の解消" aria-hidden="true">#</a> 属人化の解消</h3>
-<p>設定ファイルが複雑化すると、管理業務が属人化します。Orbs を使うことで、管理業務を社内外で共有でき、管理コストとリスクを低減できます。</p>
-<p><img src="orbs.png" alt=""></p>
+<p>設定ファイルが複雑になると、管理業務は属人化します。Orbs を使うことで、管理業務を社内外で共有でき、管理コストとリスクを低減できます。</p>
+<p><img src="reg.svg" alt=""></p>
 <h3 id="サービス導入の簡易化" tabindex="-1"><a class="header-anchor" href="#サービス導入の簡易化" aria-hidden="true">#</a> サービス導入の簡易化</h3>
-<p><a href="https://circleci.com/developer/ja/orbs" target="_blank" rel="noopener noreferrer">Orb レジストリ<OutboundLink/></a>では、AWS や Slack など、サードパーティのサービスを効率的に導入するための Orb を提供しています。</p>
-<p><img src="orbs.png" alt=""></p>
+<p><a href="https://circleci.com/developer/ja/orbs" target="_blank" rel="noopener noreferrer">Orb レジストリ<OutboundLink/></a>では、AWS や Slack など、サードパーティのサービスを効率的に導入するための Orb を多数提供しています。</p>
+<p><img src="orb.png" alt=""></p>
 </template>

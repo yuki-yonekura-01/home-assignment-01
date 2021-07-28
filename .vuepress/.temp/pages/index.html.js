@@ -46,16 +46,11 @@ export const data = {
   ],
   "filePathRelative": "README.md",
   "git": {
-    "updatedTime": 1627372280000,
+    "updatedTime": 1627397306000,
     "contributors": [
       {
         "name": "yuki-yonekura",
         "email": "yuki.yonekura@linecorp.com",
-        "commits": 3
-      },
-      {
-        "name": "yuki-yonekura-01",
-        "email": "87954431+yuki-yonekura-01@users.noreply.github.com",
         "commits": 1
       }
     ]

@@ -1,20 +1,4 @@
 export const themeData = {
-  "nav": [
-    {
-      "text": "Home",
-      "link": "/"
-    },
-    {
-      "text": "Get Started",
-      "link": "/contents/"
-    }
-  ],
-  "sidebar": [
-    "/",
-    "/contents/"
-  ],
-  "displayAllHeaders": true,
-  "sidebarDepth": 2,
   "locales": {
     "/": {
       "selectLanguageName": "English"
@@ -26,6 +10,8 @@ export const themeData = {
   "repo": null,
   "selectLanguageText": "Languages",
   "selectLanguageAriaLabel": "Select language",
+  "sidebar": "auto",
+  "sidebarDepth": 2,
   "editLink": true,
   "editLinkText": "Edit this page",
   "lastUpdated": true,
